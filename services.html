@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+ <head>
+   <!-- CSS always linked in head -->
     <link rel="stylesheet" href="./services.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-
   <body>
+    <ul>
+      <!-- list style type ,to change type of list -->
+        <li><a href="services.html">Service</a></li>
+        <li><a href="portfolio.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="index.html">Home</a></li>
+          </div>
+        </li>
+      </ul>
     <h1>Services</h1>
-    <hr color="black" />
-
     <table>
       <th>Services provided :</th>
       <tr>
-        <td><img src="./truck.png" width="200" height="200" /></td>
-        <td><img src="./wifi.jpg" width="200" height="200" /></td>
-        <td><img src="./customer.jpg" width="200" height="200" /></td>
+        <!-- colspan
+        rowspan -->
+        <td><img src="./truck.png" alt="truck" /></td>
+        <td><img src="./wifi.jpg" alt="wifi" /></td>
+        <td><img src="./customer.jpg" alt="customer service"/></td>
       </tr>
       <tr>
         <td>Deliveries</td>
@@ -25,8 +35,6 @@
         <td>Customer Service provided</td>
       </tr>
     </table>
-    <div class="container">
-      <a href="./index.html" class="btn">Home Page</a>
-    </div>
+    <!-- Scripts always before body closing tag -->
   </body>
 </html>

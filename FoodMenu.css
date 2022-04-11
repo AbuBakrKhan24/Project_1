@@ -78,18 +78,12 @@ body{
     background-image: url(./Dining.jpg);
 }
 
-h1 {
-   text-align: center;
- }
- ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: transparent;
-}
-li {
-  float: right;
 }
 li a,
 .dropbtn {
@@ -105,4 +99,8 @@ li a:hover,
 }
 li.dropdown {
   display: inline-block;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
 }

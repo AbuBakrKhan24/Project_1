@@ -22,9 +22,7 @@ div.logo {
   overflow: hidden;
   background-color: transparent;
 }
-li {
-  float: right;
-}
+
 li a,
 .dropbtn {
   display: inline-block;
@@ -41,3 +39,7 @@ li.dropdown {
   display: inline-block;
 }
 
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
     background-image: url("Platter.jpg")  ;
   }
   
@@ -41,7 +40,6 @@ body {
   li.dropdown {
     display: inline-block;
   }
-=======
   background-image: url("Platter.jpg")  ;
 }
 
@@ -86,4 +84,3 @@ li.dropdown {
   display: flex;
   justify-content: flex-end;
 }
->>>>>>> Landing_Page
